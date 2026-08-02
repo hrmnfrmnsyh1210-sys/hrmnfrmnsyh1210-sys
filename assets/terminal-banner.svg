@@ -4,13 +4,15 @@
       <stop offset="0%" stop-color="#050a18"/>
       <stop offset="100%" stop-color="#0a1230"/>
     </linearGradient>
-    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
-    </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -44,27 +46,41 @@
   <circle cx="62" cy="17" r="6" fill="#27c93f"/>
   <text x="450" y="21" text-anchor="middle" font-family="Courier New, monospace" font-size="12" fill="#5b6b9a">kyoze@github: ~/portfolio</text>
 
-  <!-- ASCII portrait block (left) -->
-  <g font-family="Courier New, monospace" font-size="10" fill="#00e5ff" filter="url(#glow)">
-    <text x="40" y="80">      .:^~~~~~~^:.</text>
-    <text x="40" y="94">   .~7J5PGGGGGGP5J7~.</text>
-    <text x="40" y="108">  ~JG#@@@@@@@@@@@@#GJ~</text>
-    <text x="40" y="122"> ~5&amp;@@@@@@@@@@@@@@@@&amp;5~</text>
-    <text x="40" y="136">^P@@@@#GP5YYY5PG#@@@@P^</text>
-    <text x="40" y="150">Y@@@@P^          ^P@@@@Y</text>
-    <text x="40" y="164">#@@@#   .::    ::.  #@@@#</text>
-    <text x="40" y="178">#@@@#  :##:    :##:  #@@@#</text>
-    <text x="40" y="192">#@@@#   ..      ..   #@@@#</text>
-    <text x="40" y="206">Y@@@@Y     ~==~     Y@@@@Y</text>
-    <text x="40" y="220"> ~P@@@@P^  ....  ^P@@@@P~</text>
-    <text x="40" y="234">  ~JG@@@@@@@@@@@@@GJ~</text>
-    <text x="40" y="248">    :~JPGB####BGPJ~:</text>
-    <text x="40" y="262">        .:^^^^:.</text>
-    <text x="40" y="276">      .:~7YPGGP57~:.</text>
-    <text x="40" y="290">    :75B@@@@@@@@@@B57:</text>
-    <text x="40" y="304">  :JB@@@@@@@@@@@@@@@@BJ:</text>
-    <text x="40" y="318"> ~P@@@@@@@@@@@@@@@@@@@@P~</text>
+  <!-- === LOW-POLY FOX HEAD === -->
+  <g filter="url(#softglow)" stroke="#00e5ff" stroke-width="0.6" stroke-linejoin="round" stroke-opacity="0.7">
+    <!-- left ear outer -->
+    <polygon points="130,58 72,185 138,172" fill="#0a1a35"/>
+    <!-- left ear inner -->
+    <polygon points="130,58 138,172 158,140" fill="#12507a"/>
+    <!-- right ear outer -->
+    <polygon points="270,58 328,185 262,172" fill="#0a1a35"/>
+    <!-- right ear inner -->
+    <polygon points="270,58 262,172 242,140" fill="#146b8c"/>
+    <!-- forehead center -->
+    <polygon points="158,140 200,115 242,140 200,178" fill="#1c6f96"/>
+    <!-- upper face left -->
+    <polygon points="138,172 158,140 200,178 165,225" fill="#0f3a5c"/>
+    <!-- upper face right (light side) -->
+    <polygon points="262,172 242,140 200,178 235,225" fill="#1c93b8"/>
+    <!-- left cheek -->
+    <polygon points="72,185 138,172 165,225 100,255" fill="#0a1a35"/>
+    <!-- right cheek -->
+    <polygon points="328,185 262,172 235,225 300,255" fill="#146b8c"/>
+    <!-- left lower cheek to snout -->
+    <polygon points="100,255 165,225 192,290 148,305" fill="#0d2a4a"/>
+    <!-- right lower cheek to snout -->
+    <polygon points="300,255 235,225 208,290 252,305" fill="#1c6f96"/>
+    <!-- snout bridge (brightest, light hits here) -->
+    <polygon points="165,225 235,225 208,290 192,290" fill="#00c2e0"/>
+    <!-- chin left -->
+    <polygon points="148,305 192,290 200,335" fill="#0a1a35"/>
+    <!-- chin right -->
+    <polygon points="252,305 208,290 200,335" fill="#12507a"/>
   </g>
+
+  <!-- outer contour glow -->
+  <path d="M130,58 L72,185 L100,255 L148,305 L200,335 L252,305 L300,255 L328,185 L270,58 L242,140 L200,115 L158,140 Z"
+        fill="none" stroke="#00e5ff" stroke-width="1.2" stroke-opacity="0.55" filter="url(#glow)"/>
 
   <!-- divider -->
   <line x1="370" y1="50" x2="370" y2="390" stroke="#1a2a4a" stroke-width="1"/>
