@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/terminal-banner.svg" alt="Kyoze terminal banner" width="100%" />
+  <img src="./assets/terminal-banner.svg?v=2" alt="Kyoze terminal banner" width="100%" />
 </p>
 
 <p align="center">
@@ -27,17 +27,9 @@
 ### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <br/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,vue,nuxtjs,nodejs,php,laravel,mysql,docker,arduino&theme=dark" alt="Tech stack icons" />
+  </a>
 </p>
 
 ---
@@ -45,39 +37,13 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hrmnfrmnsyh1210-sys&show_icons=true&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" alt="GitHub Stats" height="165"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hrmnfrmnsyh1210-sys&hide_border=true&background=050a18&stroke=00e5ff&ring=00e5ff&fire=00e5ff&currStreakLabel=00e5ff&sideLabels=8fa3d9&currStreakNum=ffffff&sideNums=8fa3d9&dates=5b6b9a" alt="GitHub Streak" height="165"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrmnfrmnsyh1210-sys&layout=compact&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" alt="Top Languages" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=hrmnfrmnsyh1210-sys&bg_color=050a18&color=8fa3d9&line=00e5ff&point=ffffff&area=true&area_color=00e5ff&hide_border=true" alt="Activity graph" />
 </p>
 
----
-
-### 📌 Featured Projects
-
-<p align="center">
-  <a href="https://github.com/hrmnfrmnsyh1210-sys/pt.triputra">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=hrmnfrmnsyh1210-sys&repo=pt.triputra&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" />
-  </a>
-  <a href="https://github.com/hrmnfrmnsyh1210-sys/undangan">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=hrmnfrmnsyh1210-sys&repo=undangan&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" />
-  </a>
-  <br/>
-  <a href="https://github.com/hrmnfrmnsyh1210-sys/chatwoot-ai-service">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=hrmnfrmnsyh1210-sys&repo=chatwoot-ai-service&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" />
-  </a>
-  <a href="https://github.com/hrmnfrmnsyh1210-sys/ULTRADECK">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=hrmnfrmnsyh1210-sys&repo=ULTRADECK&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" />
-  </a>
-</p>
-
-> 💡 Tip: kamu bisa pin 6 repo favorit langsung dari GitHub profile kamu (klik "Customize your pins" di tab Overview) supaya sinkron dengan kartu di atas.
 
 ---
 
