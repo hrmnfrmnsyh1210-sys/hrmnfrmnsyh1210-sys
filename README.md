@@ -1,112 +1,96 @@
-<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050a18"/>
-      <stop offset="100%" stop-color="#0a1230"/>
-    </linearGradient>
-    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+<p align="center">
+  <img src="./assets/terminal-banner.svg" alt="Kyoze terminal banner" width="100%" />
+</p>
 
-  <rect x="0" y="0" width="900" height="420" rx="18" fill="url(#bg)"/>
-  <rect x="0" y="0" width="900" height="420" rx="18" fill="none" stroke="#00e5ff" stroke-opacity="0.35" stroke-width="1.5"/>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&height=30&lines=%3E+whoami+%E2%80%94+Kyoze;%3E+building+cool+web+%26+mobile+apps;%3E+nuxt+3+%2B+typescript+enjoyer" alt="Typing SVG" />
+</p>
 
-  <!-- faint grid -->
-  <g stroke="#1a2a4a" stroke-width="0.5" opacity="0.5">
-    <line x1="0" y1="60" x2="900" y2="60"/>
-    <line x1="0" y1="120" x2="900" y2="120"/>
-    <line x1="0" y1="180" x2="900" y2="180"/>
-    <line x1="0" y1="240" x2="900" y2="240"/>
-    <line x1="0" y1="300" x2="900" y2="300"/>
-    <line x1="0" y1="360" x2="900" y2="360"/>
-    <line x1="150" y1="0" x2="150" y2="420"/>
-    <line x1="300" y1="0" x2="300" y2="420"/>
-    <line x1="450" y1="0" x2="450" y2="420"/>
-    <line x1="600" y1="0" x2="600" y2="420"/>
-    <line x1="750" y1="0" x2="750" y2="420"/>
-  </g>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=hrmnfrmnsyh1210-sys&label=Profile%20Views&color=0d1530&style=for-the-badge" alt="Profile views" />
+  <a href="https://github.com/hrmnfrmnsyh1210-sys?tab=followers">
+    <img src="https://img.shields.io/github/followers/hrmnfrmnsyh1210-sys?label=Followers&style=for-the-badge&color=0d1530" alt="Followers" />
+  </a>
+</p>
 
-  <!-- title bar -->
-  <rect x="0" y="0" width="900" height="34" rx="18" fill="#0d1530"/>
-  <rect x="0" y="18" width="900" height="16" fill="#0d1530"/>
-  <circle cx="22" cy="17" r="6" fill="#ff5f56"/>
-  <circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
-  <circle cx="62" cy="17" r="6" fill="#27c93f"/>
-  <text x="450" y="21" text-anchor="middle" font-family="Courier New, monospace" font-size="12" fill="#5b6b9a">kyoze@github: ~/portfolio</text>
+---
 
-  <!-- ASCII portrait block (left) -->
-  <g font-family="Courier New, monospace" font-size="10" fill="#00e5ff" filter="url(#glow)">
-    <text x="40" y="80">      .:^~~~~~~^:.</text>
-    <text x="40" y="94">   .~7J5PGGGGGGP5J7~.</text>
-    <text x="40" y="108">  ~JG#@@@@@@@@@@@@#GJ~</text>
-    <text x="40" y="122"> ~5&amp;@@@@@@@@@@@@@@@@&amp;5~</text>
-    <text x="40" y="136">^P@@@@#GP5YYY5PG#@@@@P^</text>
-    <text x="40" y="150">Y@@@@P^          ^P@@@@Y</text>
-    <text x="40" y="164">#@@@#   .::    ::.  #@@@#</text>
-    <text x="40" y="178">#@@@#  :##:    :##:  #@@@#</text>
-    <text x="40" y="192">#@@@#   ..      ..   #@@@#</text>
-    <text x="40" y="206">Y@@@@Y     ~==~     Y@@@@Y</text>
-    <text x="40" y="220"> ~P@@@@P^  ....  ^P@@@@P~</text>
-    <text x="40" y="234">  ~JG@@@@@@@@@@@@@GJ~</text>
-    <text x="40" y="248">    :~JPGB####BGPJ~:</text>
-    <text x="40" y="262">        .:^^^^:.</text>
-    <text x="40" y="276">      .:~7YPGGP57~:.</text>
-    <text x="40" y="290">    :75B@@@@@@@@@@B57:</text>
-    <text x="40" y="304">  :JB@@@@@@@@@@@@@@@@BJ:</text>
-    <text x="40" y="318"> ~P@@@@@@@@@@@@@@@@@@@@P~</text>
-  </g>
+### 😎 About Me
 
-  <!-- divider -->
-  <line x1="370" y1="50" x2="370" y2="390" stroke="#1a2a4a" stroke-width="1"/>
+- 🔭 Currently building web & mobile products with **Nuxt 3**, **TypeScript**, and modern JS tooling
+- 🌱 Always exploring new tech — from full-stack web apps to **IoT (ESP8266)** projects
+- 💬 Ask me about **Vue/Nuxt, TypeScript, Laravel, or embedded IoT**
+- ⚡ Fun fact: I love turning messy ideas into clean, working products
 
-  <!-- terminal info panel (right) -->
-  <g font-family="Courier New, monospace" font-size="15" filter="url(#glow)">
-    <text x="395" y="72" fill="#27c93f">root@github</text><text x="510" y="72" fill="#5b6b9a">:~$ whoami</text>
-    <text x="395" y="100" fill="#00e5ff" font-size="24" font-weight="bold">KYOZE_</text>
-    <text x="395" y="122" fill="#5b6b9a" font-size="12">> Web &amp; Mobile Developer</text>
-  </g>
+---
 
-  <g font-family="Courier New, monospace" font-size="12.5" fill="#8fa3d9">
-    <text x="395" y="155">STATUS     <tspan fill="#27c93f">[ ONLINE ]</tspan></text>
-    <text x="395" y="177">LOCATION   Pontianak, Kalimantan Barat, ID</text>
-    <text x="395" y="199">STACK      Nuxt.js / TypeScript / Vue / Node</text>
-    <text x="395" y="221">REPOS      34 public repositories</text>
-    <text x="395" y="243">FOCUS      Web apps &#183; Mobile &#183; IoT (ESP8266)</text>
-  </g>
+### 🛠️ Tech Stack
 
-  <!-- skill bars -->
-  <g font-family="Courier New, monospace" font-size="11" fill="#5b6b9a">
-    <text x="395" y="272">TypeScript</text>
-    <rect x="500" y="262" width="170" height="8" rx="2" fill="#132048"/>
-    <rect x="500" y="262" width="150" height="8" rx="2" fill="#00e5ff"/>
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
+</p>
 
-    <text x="395" y="292">Vue / Nuxt</text>
-    <rect x="500" y="282" width="170" height="8" rx="2" fill="#132048"/>
-    <rect x="500" y="282" width="145" height="8" rx="2" fill="#00e5ff"/>
+---
 
-    <text x="395" y="312">Node.js</text>
-    <rect x="500" y="302" width="170" height="8" rx="2" fill="#132048"/>
-    <rect x="500" y="302" width="120" height="8" rx="2" fill="#00e5ff"/>
-  </g>
+### 📊 GitHub Stats
 
-  <!-- buttons -->
-  <g font-family="Courier New, monospace" font-size="12">
-    <rect x="395" y="335" width="150" height="34" rx="6" fill="none" stroke="#00e5ff" stroke-width="1"/>
-    <text x="470" y="356" text-anchor="middle" fill="#00e5ff">VIEW PROFILE</text>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=hrmnfrmnsyh1210-sys&show_icons=true&hide_border=true&count_private=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hrmnfrmnsyh1210-sys&hide_border=true&background=050a18&stroke=00e5ff&ring=00e5ff&fire=00e5ff&currStreakLabel=00e5ff&sideLabels=8fa3d9&currStreakNum=ffffff&sideNums=8fa3d9&dates=5b6b9a" alt="GitHub Streak" height="165"/>
+</p>
 
-    <rect x="560" y="335" width="110" height="34" rx="6" fill="#00e5ff" fill-opacity="0.12" stroke="#00e5ff" stroke-width="1"/>
-    <text x="615" y="356" text-anchor="middle" fill="#00e5ff">FOLLOW</text>
-  </g>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrmnfrmnsyh1210-sys&layout=compact&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" alt="Top Languages" />
+</p>
 
-  <text x="395" y="400" font-family="Courier New, monospace" font-size="11" fill="#3a4a75">_ cursor blinking &#183; last login: today from Pontianak, ID</text>
-</svg>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hrmnfrmnsyh1210-sys&bg_color=050a18&color=8fa3d9&line=00e5ff&point=ffffff&area=true&area_color=00e5ff&hide_border=true" alt="Activity graph" />
+</p>
+
+---
+
+### 📌 Featured Projects
+
+<p align="center">
+  <a href="https://github.com/hrmnfrmnsyh1210-sys/pt.triputra">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=hrmnfrmnsyh1210-sys&repo=pt.triputra&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" />
+  </a>
+  <a href="https://github.com/hrmnfrmnsyh1210-sys/undangan">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=hrmnfrmnsyh1210-sys&repo=undangan&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" />
+  </a>
+  <br/>
+  <a href="https://github.com/hrmnfrmnsyh1210-sys/chatwoot-ai-service">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=hrmnfrmnsyh1210-sys&repo=chatwoot-ai-service&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" />
+  </a>
+  <a href="https://github.com/hrmnfrmnsyh1210-sys/ULTRADECK">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=hrmnfrmnsyh1210-sys&repo=ULTRADECK&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" />
+  </a>
+</p>
+
+> 💡 Tip: kamu bisa pin 6 repo favorit langsung dari GitHub profile kamu (klik "Customize your pins" di tab Overview) supaya sinkron dengan kartu di atas.
+
+---
+
+### 🤝 Let's Connect
+
+<p align="center">
+  <a href="https://github.com/hrmnfrmnsyh1210-sys">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/matrix-1.gif" width="100%" alt="footer wave"/>
+</p>
+
+<p align="center"><i>⭐️ Thanks for stopping by! Feel free to explore my repos.</i></p>
