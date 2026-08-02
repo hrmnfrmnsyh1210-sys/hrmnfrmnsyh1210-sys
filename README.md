@@ -45,7 +45,7 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hrmnfrmnsyh1210-sys&show_icons=true&hide_border=true&count_private=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=hrmnfrmnsyh1210-sys&show_icons=true&hide_border=true&bg_color=050a18&title_color=00e5ff&icon_color=00e5ff&text_color=8fa3d9&border_color=00e5ff" alt="GitHub Stats" height="165"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hrmnfrmnsyh1210-sys&hide_border=true&background=050a18&stroke=00e5ff&ring=00e5ff&fire=00e5ff&currStreakLabel=00e5ff&sideLabels=8fa3d9&currStreakNum=ffffff&sideNums=8fa3d9&dates=5b6b9a" alt="GitHub Streak" height="165"/>
 </p>
 
